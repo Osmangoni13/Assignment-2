@@ -8,9 +8,6 @@
 }
 
 body {
-    max-width: 1440px;
-    /* height: auto;
-    margin: 0 auto; */
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -199,6 +196,10 @@ li a {
     border-radius: 50%;
 }
 
+.youtube-icon {
+    display: none;
+}
+
 .ball-content h3 {
     font-size: 1.5rem;
     color: #ffffff;
@@ -365,6 +366,10 @@ li a {
     width: 366px;
     height: 312px;
     border-radius: 35px;
+}
+
+.image-contents2 {
+    display: none;
 }
 
 /* training section */
@@ -866,8 +871,7 @@ footer {
 
     .button-content .btn1 {
         width: 100%;
-        padding: 14px 25px;
-        font-size: 14px;
+        padding: 14px 24px;
         font-weight: 600;
         font-size: 1rem;
         border-radius: 42px;
@@ -880,8 +884,7 @@ footer {
 
     .button-content .btn2 {
         width: 100%;
-        padding: 14px 25px;
-        font-size: 14px;
+        padding: 14px 24px;
         font-weight: 600;
         font-size: 1rem;
         border-radius: 42px;
@@ -916,6 +919,22 @@ footer {
         width: 155px;
         height: 75px;
         border-radius: 9px;
+    }
+
+    .red-ball {
+        display: none;
+    }
+
+    .youtube-icon {
+        height: 40px;
+        width: 40px;
+        display: block;
+    }
+
+    .youtube-icon img {
+        border-radius: 50%;
+        width: 100%;
+        height: auto;
     }
 
     .ball-content h2 {
@@ -1049,6 +1068,7 @@ footer {
 
 
     .image-contents {
+        display: none;
         width: 100%;
         height: auto;
         margin: 0;
@@ -1056,8 +1076,26 @@ footer {
     }
 
     .image-contents img {
+        display: none;
         width: 100%;
         height: auto;
+    }
+
+    .image-contents2 {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0 31px 35px 31px;
+        border-radius: 18px;
+    }
+
+    .image-contents2 img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 18px;
+        background-size: cover;
     }
 
     /* traning-secton */
