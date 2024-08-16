@@ -8,6 +8,9 @@
 }
 
 body {
+    max-width: 1440px;
+    /* height: auto;
+    margin: 0 auto; */
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -964,6 +967,7 @@ footer {
         height: auto;
         margin: 0;
         padding: 0;
+        gap: 0;
     }
 
     .habits-contents h1 {
@@ -1147,6 +1151,7 @@ footer {
         height: auto;
         flex-direction: column;
         margin: 0;
+        padding: 0;
     }
 
     .bmi-chart-container h2 {
@@ -1157,7 +1162,14 @@ footer {
 
     .bmi-table {
         width: 100%;
-        margin: 0 autos
+        margin: 0 auto;
+    }
+
+    .bmi-table h2 {
+        font-size: 1rem;
+        font-weight: 900;
+        color: #ffffff;
+        margin: 34px 0 23px 0;
     }
 
     .bmi-form {
@@ -1165,13 +1177,18 @@ footer {
         padding: 0;
     }
 
-    .bmi-form p {
-        margin: 0;
+    .bmi-form h2 {
+        font-size: 1rem;
+        font-weight: 900;
+        color: #ffffff;
+        margin: 42px 0 14px 0;
     }
 
-    .bmi-form h2 {
-        font-size: 20px;
-        padding: 0 0 10px 0;
+    .bmi-form p {
+        font-size: 0.88rem;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+
     }
 
     .button .btn3 {
